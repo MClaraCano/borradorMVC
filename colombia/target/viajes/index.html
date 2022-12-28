@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>Contactanos</title> 
+        
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <section>
+        <h2>Dejanos tu datos, y te aseguramos un viaje increíble</h2>
+        <h3>Datos de contacto</h3>
+
+        <!-- el servlet tendrá el path nuevocliente y el método doPost -->
+        <form action="nuevocliente" method="post">
+            <div>
+                <label>Nombre</label>
+                <input name="nombre" type="text"/>
+            </div>
+                
+            <div>
+                <label>Apellido</label>
+                <input name="apellido" type="text"/>
+            </div>
+            <div>
+                <label>Contacto</label>
+                <input name="contacto" type="text"/>
+            </div>
+            <input type="submit" value="Guardar"/>
+        </form>
+        <a href="vertodos.html">Buscar por ID</a>
+    </section>
+        
+    </body>
+</html>
